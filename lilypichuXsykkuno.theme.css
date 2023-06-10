@@ -1,6 +1,7 @@
 /**
-* @name LilyPichu
+* @name LilyPichuXSykkuno
 * @author Nyria#3863
+* @author Edited by NotThisGeneration#0491
 * @description A theme based on @Melonturtle_ stream design
 * @invite rtBQX5D3bD
 * @version 1.4
@@ -18,9 +19,9 @@
   --jumping-gif: url("https://tenor.com/view/sykhi-sykwave-wave-hello-sykkuno-gif-25369945");
 
   /* Background (if you want an image replace it by : 
-image: url("https://cdn.discordapp.com/attachments/1076598379792039946/1116802223914094793/wallunno.jpg"
+"https://cdn.discordapp.com/attachments/1076598379792039946/1116802223914094793/wallunno.jpg
 --background-tertiary-alt: url("image-link"); without that => */
-  --background-tertiary-alt: #8CC464;
+  --background-tertiary-alt: #159770;
 
   /* Border-radius for the whole theme */
   --border-radius: 20px;
@@ -29,24 +30,24 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 .theme-dark {
   /* Text */
   --text-normal: #000000;
-  --header-primary: #000000;
-  --interactive-normal: #5D884A;
+  --header-primary: #0ec076;
+  --interactive-normal: rgb(25, 153, 63);
   --channels-default: #000000;
 
-  --text-muted: #000000;
+  --text-muted: #26dd88;
   --interactive-muted: #5D884A;
 
   --header-secondary: #5D884A;
   --interactive-hover: #5D884A;
-  --interactive-active: #5D884A7;
+  --interactive-active: #5D884A;
 
   /* Background color */
   --background-primary: #009291;
   --background-secondary: #5FC4CB;
   --background-secondary-alt:#5FC4CB;
-  --background-tertiary: #5D884A;
+  --background-tertiary: #30631a;
   --background-floating: #5FC4CB;
-  --background-accent: #FBBB6B;
+  --background-accent: #154e28;
   --channeltextarea-background: var(--background-secondary);
   --background-modifier-hover: rgba(56, 31, 31, 0.32);
   --background-modifier-active: rgba(19, 12, 12, 0.32);
@@ -96,17 +97,17 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 
 .theme-light {
   /* Text */
-  --text-normal: #FBF5F1;
-  --header-primary: #FBF5F1;
+  --text-normal: #000000;
+  --header-primary: #000000;
   --interactive-normal: #FBF5F1;
   --channels-default: #FBF5F1;
 
-  --text-muted: #a86373;
-  --interactive-muted: #cf92a0;
+  --text-muted: #30af8f;
+  --interactive-muted: #15c599;
 
-  --header-secondary: #cf92a0;
-  --interactive-hover: #be7d8c;
-  --interactive-active: #b36f7f;
+  --header-secondary: #41caca;
+  --interactive-hover: #3fb3e0b0;
+  --interactive-active: #29b372c0;
 
   /* Background color */
   --background-primary: #ffffff;
