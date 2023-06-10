@@ -28,12 +28,12 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 
 .theme-dark {
   /* Text */
-  --text-normal: ##8CC464;
-  --header-primary: ##8CC464;
+  --text-normal: #000000;
+  --header-primary: #000000;
   --interactive-normal: #5D884A;
-  --channels-default: #8CC464;
+  --channels-default: #000000;
 
-  --text-muted: #5D884A;
+  --text-muted: #000000;
   --interactive-muted: #5D884A;
 
   --header-secondary: #5D884A;
@@ -46,7 +46,7 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
   --background-secondary-alt:#5FC4CB;
   --background-tertiary: #5D884A;
   --background-floating: #5FC4CB;
-  --background-accent: #c5536c;
+  --background-accent: #FBBB6B;
   --channeltextarea-background: var(--background-secondary);
   --background-modifier-hover: rgba(56, 31, 31, 0.32);
   --background-modifier-active: rgba(19, 12, 12, 0.32);
@@ -68,7 +68,7 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
   --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 .colorBrand-3cPPsm {
-  color: #c5536c;
+  color: #3896B0;
 }
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
@@ -77,15 +77,15 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 
 /* Buttons */
 .lookFilled-yCfaCM {
-  background-color: #c5536c !important;
+  background-color: #3896B0 !important;
 }
 .lookFilled-yCfaCM:active,
 .lookFilled-yCfaCM:hover {
-  background-color: #b64a61 !important;
+  background-color: #4CADBC !important;
 }
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #3896B0;
+  border-color: #3896B0;
 }
 
 /* Hover background */
@@ -131,7 +131,7 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 }
 
 .colorBrand-3cPPsm {
-  color: #c5536c;
+  color: #8CC464;
 }
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
@@ -140,15 +140,15 @@ image: url("https://cdn.discordapp.com/attachments/1076598379792039946/111680222
 
 /* Buttons */
 .lookFilled-yCfaCM {
-  background-color: #c5536c !important;
+  background-color: #8CC464 !important;
 }
 .lookFilled-yCfaCM:active,
 .lookFilled-yCfaCM:hover {
-  background-color: #b64a61 !important;
+  background-color: #57ac7d !important;
 }
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #8CC464;
+  border-color: #8CC464;
 }
 
 /* Hover background */
