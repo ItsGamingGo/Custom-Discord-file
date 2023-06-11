@@ -1,0 +1,159 @@
+/**
+* @name LilyPichuXSykkuno
+* @author Nyria#3863
+* @author Edited by NotThisGeneration#0491
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
+* @version 1.4
+* @donate https://ko-fi.com/nyria
+*/
+@import url("https://nyri4.github.io/LilyPichu/main.css");
+
+/* Remove decorations */
+@import url("https://nyri4.github.io/LilyPichu/stuff/overlay.css");
+
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://tenor.com/view/sykhi-sykwave-wave-hello-sykkuno-gif-25369945");
+
+  /* Background (if you want an image replace it by : 
+"https://cdn.discordapp.com/attachments/1076598379792039946/1116802223914094793/wallunno.jpg
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #159770;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #000000;
+  --header-primary: #0ec076;
+  --interactive-normal: rgb(25, 153, 63);
+  --channels-default: #000000;
+
+  --text-muted: #26dd88;
+  --interactive-muted: #5D884A;
+
+  --header-secondary: #5D884A;
+  --interactive-hover: #5D884A;
+  --interactive-active: #5D884A;
+
+  /* Background color */
+  --background-primary: #009291;
+  --background-secondary: #5FC4CB;
+  --background-secondary-alt:#5FC4CB;
+  --background-tertiary: #30631a;
+  --background-floating: #5FC4CB;
+  --background-accent: #154e28;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.32);
+  --background-modifier-active: rgba(19, 12, 12, 0.32);
+  --background-modifier-selected: rgba(31, 21, 21, 0.32);
+  --toast-background: #009291 !important;
+  --toast-header: #009291 !important;
+  --toast-contents: #009291 !important;
+  --toast-border: #009291 !important;
+  --input-background: var(--background-secondary);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --channel-text-area-placeholder: var(--interactive-normal);
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorBrand-3cPPsm {
+  color: #3896B0;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-yCfaCM {
+  background-color: #3896B0 !important;
+}
+.lookFilled-yCfaCM:active,
+.lookFilled-yCfaCM:hover {
+  background-color: #4CADBC !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #3896B0;
+  border-color: #3896B0;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+.theme-light {
+  /* Text */
+  --text-normal: #000000;
+  --header-primary: #000000;
+  --interactive-normal: #FBF5F1;
+  --channels-default: #FBF5F1;
+
+  --text-muted: #30af8f;
+  --interactive-muted: #15c599;
+
+  --header-secondary: #41caca;
+  --interactive-hover: #3fb3e0b0;
+  --interactive-active: #29b372c0;
+
+  /* Background color */
+  --background-primary: #ffffff;
+  --background-secondary: #ffeeee;
+  --background-secondary-alt: #8CC464;
+  --background-tertiary: #ffbbbb;
+  --background-floating: #ffbbbb;
+  --background-accent: #c5536c;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.062);
+  --background-modifier-active: rgba(19, 12, 12, 0.123);
+  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+.colorBrand-3cPPsm {
+  color: #8CC464;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-yCfaCM {
+  background-color: #8CC464 !important;
+}
+.lookFilled-yCfaCM:active,
+.lookFilled-yCfaCM:hover {
+  background-color: #57ac7d !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #8CC464;
+  border-color: #8CC464;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
