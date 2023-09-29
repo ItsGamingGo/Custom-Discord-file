@@ -17,7 +17,7 @@
   --success-color: #9D825E;
   --danger-color: #982929;
   --url-color: #9D825E;
-  --background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1481075842956281035/1BC663669A3D6457F0232AA29A4AC9E4F28C6AF6/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+  --background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1481075842956281035/1BC663669A3D6457F0232AA29A4AC9E4F28C6AF6/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=23000000&letterbox=false');
   --background-shading: 89%;
   --background-position: center;
   --background-size: cover;
@@ -30,7 +30,7 @@
   --background-invert: 0%;
   --background-blur: 1px;
   --background-overlay: rgb(133,23,152,0);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-image: url('https://vignette.wikia.nocookie.net/theultimatesidemen/images/1/1b/Vikkstar123.png/revision/latest?cb=20180404162426');
   --user-popout-position: center;
   --user-popout-size: 200%;
   --user-popout-repeat: repeat;
@@ -63,7 +63,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: gg sans;
+  font-family:DosisFont !important;
   --code-font: Consolas;
   --channels-width: 200px;
   --members-width: 200px;
@@ -84,6 +84,10 @@
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
 }
+
+/* Any custom CSS below here */
+
+
 
 /* Any custom CSS below here */
 
